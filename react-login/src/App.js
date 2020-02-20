@@ -19,7 +19,7 @@ function App() {
 										<Link className="nav-link" to={'sign-in'}>Login</Link>
 									</li>
 									<li className="nav-item">
-										<Link className="nav-link" to={'sign-up'}>Sign</Link>
+										<Link className="nav-link" to={'sign-up'}>SignUp</Link>
 									</li>
 
 								</ul>
