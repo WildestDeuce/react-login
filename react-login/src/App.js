@@ -26,33 +26,15 @@ function App() {
 			</nav>
 			<div className="auth-wrapper">
 				<div className="auth-inner">
-<Switch>
-<Route exact path='/' component={Login} />
-<Route exact path='/sign-in'component={Login} />
-<Route exact path='/sign-up' component={SignUp} />
-
-
-
-</Switch>
-
-
+					<Switch>
+						<Route exact path='/' component={Login} />
+						<Route exact path='/sign-in' component={Login} />
+						<Route exact path='/sign-up' component={SignUp} />
+					</Switch>
 				</div>
-
-
 			</div>
 		</div>
-	</Router>)
+	</Router>
+	);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 export default App;
